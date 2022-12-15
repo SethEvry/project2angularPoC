@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+/*Colors:
+
+==Primary==
+
+Orange
+PMS 021 C
+PMS 021 U
+CMYK: 0, 73, 97, 0
+RGB: 242, 105, 38
+Hex: #F26925
+
+White
+CMYK: 0, 0, 0, 0
+RGB: 0, 0, 0
+Hex: #FFFFF
+
+Dark Gray
+PMS Cool Gray 10 C
+PMS Cool Gray 10 U
+CMYK: 71, 62, 50, 33
+RGB: 72, 76, 86
+Hex: #474C55
+
+==Secondary==
+
+Blue
+PMS 542 C
+PMS 543 U
+CMYK: 56, 24, 14, 0
+RGB: 115, 165, 194
+Hex: #72A4C2
+
+Yellow
+PMS 130 C
+PMS 7549 U
+CMYK: 0, 32, 100, 0
+RGB: 253, 181, 21
+Hex: #FCB41
+
+Light Gray
+PMS Cool Gray 4 C
+PMS Cool Gray 4 U
+CMYK: 28, 22, 22, 0
+RGB: 185, 185, 186
+Hex: #B9B9BA
+
+
+
+*/
+body {
+    background: black;
+    color: white;
+}

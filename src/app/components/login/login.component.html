@@ -1,0 +1,17 @@
+<form (ngSubmit)="handleLogin()">
+  <label for="email">
+    Email:
+    <input type="text" id="email" name="email" [(ngModel)]="email" placeholder="enter email"  />
+  </label>
+  <label for="password">
+    Password:
+    <input
+      type="password"
+      id="password"
+      name="password"
+      [(ngModel)]="password"
+      placeholder="*********"
+    />
+  </label>
+  <input type="submit" value="Sign in" />
+</form>

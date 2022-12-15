@@ -1,0 +1,10 @@
+<header>
+    <h1 class="title">{{title}}</h1>
+    <div *ngIf="!isLoggedIn" class="login">
+        <a routerLink="/login">sign in</a>
+        <a routerLink="/register">register</a>
+    </div>
+    <div *ngIf="isLoggedIn" class="logout">
+    <a routerLink="/logout"></a>    
+    </div>
+</header>
